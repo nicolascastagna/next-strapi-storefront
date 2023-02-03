@@ -1,0 +1,21 @@
+.container-notFound {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    text-align: center;
+}
+
+.block-notFound {
+    & h4 {
+        font-size: 22px;
+        padding: 12px;
+    }
+    & button {
+        background: $color-1;
+        padding: 10px;
+        border: 2px solid $background-1;
+        font-size: 16px;
+        cursor: pointer;
+    }
+}
